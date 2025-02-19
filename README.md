@@ -29,11 +29,13 @@ An example of API request to download the same data from terminal is in *ERA5_re
 
 **Estimates of Sensible Heat Flux**  
 Following a power law for wind speed at level z1 and z2 (u1 and u2, respectively)  
-u2/u1 = (z2/z1)P                                P=0.11 at sea, Hsu et al. (1993)    
-u2m = u10m [(2/10)0.11)                         2m u-component of wind speed    
-v2m = v10m [(2/10)0.11)                         2m v-component of wind speed  
-vel = sqrt(u2m2 + v2m2)                         2m wind speed  
-
+<pre>
+u2/u1 = (z2/z1)P               P=0.11 at sea, Hsu et al. (1993)    
+u2m = u10m [(2/10)^0.11]       2m u-component of wind speed    
+v2m = v10m [(2/10)^0.11]       2m v-component of wind speed  
+vel = sqrt(u2m2 + v2m2)        2m wind speed  
+</pre>
+ 
 1) Formula 1    
 Rate of sensible heat loss from ocean surface by convection and conduction Qh [Wm-2]    
 This approximation is valid for Pacific Ocean (Mohammed Faizal & Ahmed, 2011)  
@@ -44,12 +46,12 @@ Convection and conduction heat flux H [Wm-2]
 This approximation is valid mostly for lakes and rivers (Kalinowska, 2019)  
 The function of wind comes from Brady et al. (1969), Ahsan and Blumberg (1999), Arifin et al. (2016) and Ji (2008)  
 H = cb (pa/(100 p0)) f_u (SST - Ta)  
-where
+where  
 cb   = 0.62                        [mb/degC]  
 p0   = 1013                        [mb]  
 f_u = 6.9 + 0.34 (vel2)            [Wm-2mb-1]  
 
-3) Formula 3  
+4) Formula 3  
 ERA5’s Instantaneous Surface Sensible Heat Flux [Wm-2]. “This parameter is the transfer of heat between the Earth's surface and the atmosphere, at the specified time, through the effects of turbulent air motion (but excluding any heat transfer resulting from condensation or evaporation). The magnitude of the sensible heat flux is governed by the difference in temperature between the surface and the overlying atmosphere, wind speed and the surface roughness. For example, cold air overlying a warm surface would produce a sensible heat flux from the land (or ocean) into the atmosphere. The ECMWF convention for vertical fluxes is positive downwards." (https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview).
 
 The ISHF used in the notebook is defined as the negative of this parameter to represent positive upwards fluxes (from the sea to the atmosphere).

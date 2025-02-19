@@ -1,3 +1,6 @@
+Create by: Leonardo Porcacchia, 08-10-2021
+Edited by: Leonardo Porcacchia, 
+
 The Jupyter Notebook “Notebook_Soaring_NS” is a collection of Python3 scripts aimed at importing meteorological variables from ECMWF Reanalysis v5 (ERA5) for the Dutch North Sea and analyzing them in relation to bird thermal soaring. Two locations are considered (IJmuiden and Schiermonnikoog) were wind farms are present since we are interested in bird behavior around these structures. The study is limited to the years 2019 and 2020.
 
 ERA5 is a climate reanalysis produced by the European Center for Medium Range Weather forecast (ECMWF), providing hourly data on many atmospheric, land-surface and sea-state parameters together with estimates of uncertainty. ERA5 data are available in the Climate Data Store https://cds.climate.copernicus.eu/cdsapp#!/home on regular latitude-longitude grids at 0.25 deg x 0.25 deg resolution, with atmospheric parameters on 37 pressure levels.

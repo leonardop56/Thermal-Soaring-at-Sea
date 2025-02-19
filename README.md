@@ -56,7 +56,6 @@ ERA5’s Instantaneous Surface Sensible Heat Flux [Wm-2]. “This parameter is t
 
 The ISHF used in the notebook is defined as the negative of this parameter to represent positive upwards fluxes (from the sea to the atmosphere).
 
-Plots of time series of sensible heat flux estimates, for Ijmuiden and for Schiermonnikoog, and for July 2020, are in the *Plot* folder, along with other time series plots generated in the notebook. 
-The KNMI Weerkaarten folder within the *Plot* folder contains surface pressure charts downloaded from the KNMI website https://www.knmi.nl/nederland-nu/klimatologie/daggegevens/weerkaarten for the days 14-15-20-21-22/07/2020.
+The *KNMI Weerkaarten* folder contains surface pressure charts downloaded from the KNMI website (https://www.knmi.nl/nederland-nu/klimatologie/daggegevens/weerkaarten) for the days 14-15-20-21-22/07/2020.
 
-Finally, a Summary has been uploaded to the repository that describes the methodology used and presets my results. It also provides a general picture of the atmospheric conditions related to bird soaring over the North Sea.
+Finally, *Summary.pdf* has been uploaded to the repository. It describes the methodology I used and presets my results. It also provides a general picture of the atmospheric conditions related to bird soaring over the North Sea.

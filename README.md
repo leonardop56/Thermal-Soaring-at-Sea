@@ -1,5 +1,4 @@
-Create by: Leonardo Porcacchia, 08/10/2021  
-Edited by: Leonardo Porcacchia, 10/02/2025  
+Create by: Leonardo Porcacchia, 08/10/2021
 leonardo.porcacchia@gmail.com
 
 

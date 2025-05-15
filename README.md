@@ -29,18 +29,18 @@ ERA5 is the latest climate reanalysis from the **European Centre for Medium-Rang
 
 ## 📦 Variables Included
 
-From multiple NetCDF files in the `Data/` folder:
+From NetCDF files in the `Data/` folder:
 
 * Sea surface temperature (SST)
 * 2m air temperature (Ta)
 * Wind components at 10m & 100m: u10m, v10m, u100m, v100m
 * Surface pressure (pa)
-* Surface sensible heat flux
+* Surface sensible heat flux (ISHF)
 * Boundary layer height
-* Total cloud cove
-* Total precipitation
 * Convective available potential energy
-* Wind at 500hPa and 925hPa (from `North_Sea_2019_2020_geo.nc`)
+* Total cloud cover (`North_Sea_2019_2020_prec.nc`)
+* Total precipitation (`North_Sea_2019_2020_prec.nc`)
+* Wind at 500hPa and 925hPa (`North_Sea_2019_2020_geo.nc`)
 
 ---
 

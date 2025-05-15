@@ -33,14 +33,14 @@ From multiple NetCDF files in the `Data/` folder:
 
 * Sea surface temperature (SST)
 * 2m air temperature (Ta)
-* Wind components at 10m & 100m: `u10m`, `v10m`, `u100m`, `v100m`
-* Wind at 500hPa and 925hPa (from `North_Sea_2019_2020_geo.nc`)
+* Wind components at 10m & 100m: u10m, v10m, u100m, v100m
 * Surface pressure (pa)
-* Surface sensible heat flux (ERA5-derived)
+* Surface sensible heat flux
 * Boundary layer height
-* Total cloud cover
-* Total precipitation (from `North_Sea_2019_2020_prec.nc`)
-* Convective available potential energy (from `North_Sea_2019_2020.nc`)
+* Total cloud cove
+* Total precipitation
+* Convective available potential energy
+* Wind at 500hPa and 925hPa (from `North_Sea_2019_2020_geo.nc`)
 
 ---
 
@@ -85,8 +85,9 @@ Reference: [ERA5 Parameter Description](https://cds.climate.copernicus.eu/cdsapp
 
 The `KNMI_Weerkaarten/` folder includes weather maps from the KNMI archive for key dates:
 
-* **14, 15, 20, 21, and 22 July 2020**
-  Source: [KNMI Klimatologie](https://www.knmi.nl/nederland-nu/klimatologie/daggegevens/weerkaarten)
+* **14, 15, 20, 21, and 22 July 2020**  
+
+Source: [KNMI Klimatologie](https://www.knmi.nl/nederland-nu/klimatologie/daggegevens/weerkaarten)
 
 ---
 

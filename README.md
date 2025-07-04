@@ -1,6 +1,6 @@
 # Thermal Soaring at Sea
 
-This repository contains the Jupyter notebook `Notebook_Soaring_NS.ipynb`, which includes Python 3 scripts to analyze meteorological variables from **ERA5 reanalysis data** for the **Dutch North Sea**, focusing on **bird thermal soaring** near offshore wind farms.
+This very repository contains the Jupyter notebook `Notebook_Soaring_NS.ipynb`, which includes Python 3 scripts to analyze meteorological variables from **ERA5 reanalysis data** for the **Dutch North Sea**, focusing on **bird thermal soaring** near offshore wind farms.
 
 Two key locations are studied:
 
